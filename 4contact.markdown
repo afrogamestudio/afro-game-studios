@@ -3,9 +3,12 @@ layout: default
 title: Contact Us
 permalink: /contact/
 ---
+## Get in Touch
 
-<section class="hero">
-  <h1>Afro Game Studios</h1>
-  <p>Creators of immersive gaming experiences.</p>
-  <a href="#games" class="btn">Our Games</a>
-</section>
+We'd love to hear from you! Here's how you can reach us:
+
+**Address:** 123 Main Street, City, State ZIP
+
+**Phone:** 555-1234
+
+**Email:** [afrogamestudios@gmail.com](mailto:afrogamestudios@gmail.com)
