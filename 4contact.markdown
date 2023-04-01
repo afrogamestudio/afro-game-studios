@@ -7,8 +7,8 @@ permalink: /contact/
 
 We'd love to hear from you! Here's how you can reach us:
 
-**Address:** 123 Main Street, City, State ZIP
+**Address:** 41 Juta St, Braamfontein, Johannesburg, 2001
 
-**Phone:** 555-1234
+<!-- **Phone:** 555-1234 -->
 
 **Email:** [afrogamestudios@gmail.com](mailto:afrogamestudios@gmail.com)
