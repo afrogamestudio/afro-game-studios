@@ -4,20 +4,23 @@ title: Our Games
 permalink: /games/
 ---
 
-<section id="games" class="section">
+<section class="hero">
 
-  {% for game in site.games %}
+
+
+    {% for game in site.games %}
   {% if game.is_index %}
-  <h2>
-    <a href="{{ site.baseurl }}/{{ game.url }}">
-      {{ game.title }}
-    </a>
-  </h2>
-  <p>{{ game.excerpt }}</p>
+      <li>
+        <h2>
+          <a class="post-link" href="{{ game.url | prepend: site.baseurl }}">{{ game.title | escape }}</a>
+        </h2>
+        <p>
+          <img src="{{ site.baseurl }}/{{ game.thumbnail }}" style="width: 150px; float: left; padding: 5px" alt="{{game.title}}" />
+          {{ game.excerpt | strip_html }}
+        </p>
+      </li>
   {% endif %}
-{% endfor %}
-
-
+    {% endfor %}
 
 
 </section>
