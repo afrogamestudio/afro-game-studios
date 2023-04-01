@@ -1,7 +1,7 @@
 ---
 layout: page
-title: News & Events
-permalink: /news/
+title: Blog
+permalink: /blog/
 ---
 
 <section class="hero">
@@ -12,13 +12,8 @@ permalink: /news/
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          <p>{{ post.summary }}
         </h2>
-        <p>
-          <img src="{{ site.baseurl }}/{{ post.thumbnail }}" style="width: 150px; float: left; padding: 5px" alt="{{post.title}}" />
-          {{ post.excerpt | strip_html }}
-        </p>
       </li>
     {% endfor %}
-
 </section>
-

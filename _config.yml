@@ -28,6 +28,11 @@ facebook_pagename: afrogamestudios
 author:
   name: Afro Game Studios
   email: afrogamestudio@gmail.com
+collections:
+  games:
+    output: true
+    permalink: /games/:title/
+
 
 # Build settings
 theme: minima

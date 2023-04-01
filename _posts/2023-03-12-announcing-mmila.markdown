@@ -2,6 +2,7 @@
 layout: post
 title:  "Announcing the launch of Mmila on the Apple App Store"
 date:   2023-03-12 10:57:40 +0200
+thumbnail: "assets/images/mmila.png"
 categories: new game
 ---
 ![Mmila]({{ site.baseurl }}/assets/images/mmila.png)
