@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+  <p>Category: {{ page.category }}</p>
+  <p>Platform: {{ page.platform | join: ", " }}</p>
+  <p>Release Date: {{ page.release_date | date: "%B %d, %Y" }}</p>
+  <p><a href="{{ page.app_store_link }}"><img src="/assets/images/app-store-badge.svg" alt="Download on the App Store"></a></p>
+  <p><a href="{{ page.google_play_link }}"><img src="/assets/images/google-play-badge.png" alt="Get it on Google Play"></a></p>
+
+  <h2>Overview</h2>
+  {{ content }}
+
+  <h2>Help</h2>
+  {% include_relative help.md %}
+</div>
