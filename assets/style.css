@@ -1,20 +1,33 @@
+:root {
+    --primary-bg-colour: #EEE;
+    --secondary-bg-colour: #434a53ff;
+    --tertiary-bg-colour: #ffa600ff;
+    --quaternary-bg-colour: #755b69;
+
+    --primary-font-colour: #CCC;
+    --secondary-font-colour: #EEE;
+    --tertiary-font-colour: #070707;
+    --quaternary-font-colour: #F7F7C7;
+  }
+  
+
 body {
-    background-color: #8a927cff;
+    background-color: var(--primary-bg-colour);
 }
 
 .site-header {
-    background-color: #434a53ff;
-    color: #CCC;
+    background-color: var(--secondary-bg-colour);
+    color: var(--secondary-font-colour);
 }
 
 .site-header > .wrapper a:visited, .site-header > .wrapper a {
-    color: #CCC;
+    color: var(--secondary-font-colour);
     text-decoration: none;
 }
 
 .site-header > .wrapper a:hover {
     text-decoration: dotted;
-    color: #EEE;
+    color: var(--tertiary-font-colour);
 }
 
 .site-header > .wrapper {
@@ -23,7 +36,7 @@ body {
 
 html > body > main.page-content > div.wrapper > article.post > div.post-content > section.hero > li {
     list-style-type: none;
-    background-color: #755b69;
+    background-color: var(--tertiary-bg-colour);
     padding: 20px;
     margin-bottom: 10px;
 }
@@ -35,16 +48,17 @@ html > body > main.page-content > div.wrapper > article.post > div.post-content 
     top: 0px;
     right: -600px;
     border-radius: 2px;
-    background-color: #ffa600ff;
+    background-color: var(--quaternary-bg-colour);
+    color: var(--secondary-font-colour);
     width: 100px;
 }
 
 .hero > li > h2 > a {
-    color: #070707;
+    color: var(--secondary-bg-colour);
 }
 
 .hero > li > p {
-    color: #F7F7C7;
+    color: var(--secondary-bg-colour);
 }
 
 html > body > main.page-content > div.wrapper > article.post > div.post-content > section.hero > li > h2 > a {
@@ -53,19 +67,5 @@ html > body > main.page-content > div.wrapper > article.post > div.post-content 
 
 .footer-col-wrapper
 {
-    color: #FFF;
+    color: var(--primary-bg-colour);
 }
-
-/* CSS HEX
---charcoal: #434a53ff;
---lavender-web: #dbd4edff;
---reseda-green: #8a927cff;
---orange-web: #ffa600ff;
---white: #ffffffff;
-
-/* CSS HSL 
---charcoal: hsla(214, 11%, 29%, 1);
---lavender-web: hsla(257, 41%, 88%, 1);
---reseda-green: hsla(82, 9%, 53%, 1);
---orange-web: hsla(39, 100%, 50%, 1);
---white: hsla(0, 0%, 100%, 1); */
