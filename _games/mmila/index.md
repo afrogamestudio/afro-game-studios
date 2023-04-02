@@ -15,3 +15,5 @@ google_play_link: https://play.google.com/store/apps/details?id=com.myawesomegam
 Morabaraba is a traditional African board game that has been enjoyed for centuries. Mmila is a reimagining of the classic on your digital device, allowing to enjoy the game on the go. The digital version of Morabaraba retains all the excitement and challenge of the traditional game, while also adding new features and gameplay elements.
 
 Play against your friend in the two player mode or face off against the computer. Whether you're a long-time fan of the traditional game or a newcomer looking for a fun and challenging new game to play, Mmila is sure to provide hours of entertainment.
+
+[![Download Mmila on the App Store]({{ site.baseurl }}/assets/images/app-store.png)](https://apps.apple.com/za/app/mmila/id1601801796)
