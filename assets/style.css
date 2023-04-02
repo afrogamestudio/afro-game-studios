@@ -4,7 +4,7 @@
     --tertiary-bg-colour: #ffa600ff;
     --quaternary-bg-colour: #755b69;
 
-    --primary-font-colour: #CCC;
+    --primary-font-colour: #777;
     --secondary-font-colour: #EEE;
     --tertiary-font-colour: #070707;
     --quaternary-font-colour: #F7F7C7;
@@ -59,6 +59,10 @@ html > body > main.page-content > div.wrapper > article.post > div.post-content 
 
 .hero > li > p {
     color: var(--secondary-bg-colour);
+}
+
+div.footer-col > p {
+    color: var(--primary-font-colour);
 }
 
 html > body > main.page-content > div.wrapper > article.post > div.post-content > section.hero > li > h2 > a {
